@@ -1,0 +1,35 @@
+1724660204364|0|statement|connection 0|url jdbc:p6spy:h2:mem:testdb|     drop table if exists member cascade |     drop table if exists member cascade 
+1724660204365|0|statement|connection 0|url jdbc:p6spy:h2:mem:testdb|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1724660204368|0|statement|connection 0|url jdbc:p6spy:h2:mem:testdb|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1724660204371|1|statement|connection 0|url jdbc:p6spy:h2:mem:testdb|     create table member (         id bigint not null,         username varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         username varchar(255),         primary key (id)     )
+1724660204997|2|statement|connection 0|url jdbc:p6spy:h2:mem:testdb|select next value for member_seq|select next value for member_seq
+1724660205047|0|statement|connection 0|url jdbc:p6spy:h2:mem:testdb|insert into member (username,id) values (?,?)|insert into member (username,id) values ('memberA',1)
+1724660205048|0|commit|connection 0|url jdbc:p6spy:h2:mem:testdb||
+1724661262925|1|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     drop table if exists member cascade |     drop table if exists member cascade 
+1724661262926|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1724661262930|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1724661262932|1|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     create table member (         id bigint not null,         username varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         username varchar(255),         primary key (id)     )
+1724661263559|2|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|select next value for member_seq|select next value for member_seq
+1724661263602|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|insert into member (username,id) values (?,?)|insert into member (username,id) values ('memberA',1)
+1724661263604|0|commit|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test||
+1724661295483|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     drop table if exists member cascade |     drop table if exists member cascade 
+1724661295484|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1724661295487|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1724661295490|1|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     create table member (         id bigint not null,         username varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         username varchar(255),         primary key (id)     )
+1724661296114|2|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|select next value for member_seq|select next value for member_seq
+1724661296161|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|insert into member (username,id) values (?,?)|insert into member (username,id) values ('memberA',1)
+1724661296163|0|commit|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test||
+1724661446775|1|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     drop table if exists member cascade |     drop table if exists member cascade 
+1724661446776|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1724661446780|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1724661446782|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     create table member (         id bigint not null,         username varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         username varchar(255),         primary key (id)     )
+1724661447390|2|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|select next value for member_seq|select next value for member_seq
+1724661447436|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|insert into member (username,id) values (?,?)|insert into member (username,id) values ('memberA',1)
+1724661447437|0|commit|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test||
+1724661511955|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     drop table if exists member cascade |     drop table if exists member cascade 
+1724661511956|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1724661511959|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1724661511961|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|     create table member (         id bigint not null,         username varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         username varchar(255),         primary key (id)     )
+1724661512584|3|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|select next value for member_seq|select next value for member_seq
+1724661512626|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test|insert into member (username,id) values (?,?)|insert into member (username,id) values ('memberA',1)
+1724661512627|0|commit|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/h2/test||
