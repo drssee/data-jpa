@@ -13,6 +13,12 @@ spring:
         format_sql: true
     database-platform: org.hibernate.dialect.H2Dialect
     show-sql: true
+
+  data:
+    web:
+      pageable:
+        default-page-size: 10
+        max-page-size: 2000
 logging:
   level:
     org.hibernate.sql: debug
